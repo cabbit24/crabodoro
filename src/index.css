@@ -1,0 +1,292 @@
+input, textarea, button {
+
+  color:white;
+  background-color : #2b2a33;
+  border-radius: 4px;
+  border-width:1px;
+}
+body
+{
+  font-family: "Noto Sans";
+  color:white;
+  background-color:#181a1b;
+}
+#title
+{
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#pomodoro
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pomodoro #display
+{
+  font-size: 1.75em;
+  text-align:center;
+}
+#stat-bars
+{
+  text-align:center;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  flex-direction:column;
+  justify-content: center;
+  white-space: pre-wrap;
+}
+#stat-bars img
+{
+
+  height:1.25em;
+  width:1.25em;
+  position:relative;
+}
+#controls
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin:5px;
+}
+#controls button
+{
+  margin:5px;
+  padding:2px;
+  font-size:14px;
+}
+#footer
+{
+  text-align:center;
+  margin-top: auto;
+}
+#crab .button:active
+{
+  animation: jelly 0.55s ease-in-out forwards;
+}
+
+#crab button
+{
+  font-size:5.0em;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  user-select:none;
+}
+
+main
+{
+  margin-top: 90px;
+  min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+}
+#name-label
+{
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+#focus-label
+{
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+.popup-inner
+{
+
+  z-index:2;
+  margin-top: auto;
+  position: relative;
+  height:100%;
+  width:100%;
+  min-height: 100vh;
+  background-color:rgba(0,0,0,0.70);
+  overflow:auto;
+}
+.popup-inner .close
+{
+  z-index:3;
+  margin-top: auto;
+  position: absolute;
+  top: 0.75em;
+  right: 0.5em;
+  padding: 0.25em;
+  cursor: pointer;
+  font-size: 2em;
+}
+#popup-menu
+{
+
+  position:fixed;
+  z-index:1;
+  list-style-type: none;
+  left:0;
+}
+#popup-menu .button
+{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size:1.5em;
+
+}
+#popup-menu .button img
+{
+  height:3em;
+  width:3em;
+}
+@keyframes jelly
+{
+  0% { transform: scale(1); }
+  25% { transform: scale(1.2,0.8); }
+  50% { transform: scale(0.8,1.2); }
+  75% { transform: scale(1.1, 0.9); }
+  100% { transform: scale(1); }
+}
+.popup
+{
+
+  z-index:2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  left:0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
+.shop-subtitle img
+{
+  position: relative;
+  top: 0.15em;
+  height:1em;
+  width:1.5em;
+}
+.shop-price
+{
+  font-size:1.75em;
+}
+.shop-price img
+{
+  position: relative;
+  top: 0.15em;
+  height:1.25em;
+  width:1.25em;
+}
+.shopItem
+{
+  font-size:7em;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  margin:0.1em;
+}
+#warning-title img
+{
+  position: relative;
+  top: 0.15em;
+  height:1em;
+  width:1.25em;
+}
+.shopItem img
+{
+  position: relative;
+  top: 0.15em;
+  height:1em;
+  width:1.25em;
+}
+#settings-form
+{
+  position: relative;
+  justify-content: center;
+  text-align:center;
+  padding-bottom: 100px;
+}
+#settings-form *
+{
+  text-align:center;
+}
+#help-content
+{
+  font-size:1em;
+  text-align:center;
+  justify-content: center;
+  list-style-type: none;
+  padding-bottom: 75px;
+}
+.dead-content button
+{
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+  display:grid;
+  width:100%;
+  padding:20px;
+}
+#skin-list
+{
+  padding-bottom: 250px;
+}
+.shop-list
+{
+
+  display:grid;
+  grid-gap:10px;
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+  text-align:center;
+  overflow:scroll;
+}
+ul
+{
+  list-style-position:inside;
+  list-style-type: none;
+  padding:0;
+}
+.popup-title
+{
+  flex-direction:column;
+  justify-content: center;
+  text-align:center;
+  height:100%
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.shop-subtitle
+{
+  display:auto;
+  flex-direction:column;
+  justify-content: center;
+  text-align:center;
+}
+.shop-label
+{
+  flex-direction:column;
+  justify-content: center;
+  text-align:center;
+  font-size:1em;
+}
+.social-link img
+{
+  margin:0.25em;
+  height:2.5em;
+  width:2.5em;
+}
