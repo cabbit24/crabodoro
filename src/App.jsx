@@ -289,32 +289,34 @@ function App()
         <h1 style={{color:gamestate.color}} class="popup-title">Frequently Asked Questions</h1>
         <ul id="help-content">
           <li>
-            <h3 style={{color:gamestate.color}}>Q: How do I change the timer's duration?</h3>
-            <h4>A: Click the gear icon on the top left. You can enter the number of break and focus minutes under their respective sections in the settings menu.</h4>
+            <h3 style={{color:gamestate.color}}>Q: How do I change the timer’s duration?</h3>
+            <h4>A: Click the gear icon in the top left. You can enter the number of break and focus minutes under their respective sections in the Settings menu.</h4>
           </li>
           <li>
             <h3 style={{color:gamestate.color}}>Q: What is this?</h3>
-            <h4>A: This is a Tamagotchi inspired game based around a Pomodoro timer. When you focus and complete a timer, you earn gems to take care of your pet. See <a href="https://en.wikipedia.org/wiki/Tamagotchi">Tamagotchi (wikipedia)</a> and <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro (wikipedia)</a> for more details.</h4>
+            <h4>A: This is a Tamagotchi-inspired game based around a Pomodoro timer. When you focus and complete a session, you earn currency to take care of your pet. See <a href="https://en.wikipedia.org/wiki/Tamagotchi">Tamagotchi (wikipedia)</a> and <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro (wikipedia)</a> for more details.</h4>
           </li>
           <li>
             <h3 style={{color:gamestate.color}}>Q: How do I take care of my pet?</h3>
-            <h4>A: Complete pomodoro sessions to earn gems, you can use these gems to buy items to fulfill your pet's needs</h4>
+            <h4>A: You can buy coconuts, coral, and seashells to take care of your pet's needs. The three bars below the Pomodoro timer show the needs.</h4>
           </li>
           <li>
             <h3 style={{color:gamestate.color}}>Q: How do I buy things?</h3>
-            <h4>A: Click the bag of money on the top left. You can purchase skins, which will change the appearance of your pet, or you can purchase items to fill your pet's needs  (coconuts, coral, and seashells).</h4>
+            <h4>A: Click on the bag of money in the top left. You can purchase skins, which will change the appearance of your pet, or you can purchase items to fill your pet's needs (coconuts, coral, and seashells).</h4>
           </li>
           <li>
             <h3 style={{color:gamestate.color}}>Q: Why does the timer turn green sometimes? What's the difference between the color being green and another color?</h3>
-            <h4>A: Green means you are in 'break' mode, you will not earn gems when the timer completes in this mode. You should take a break from working, studying, or whatever else you are doing when the timer is green. You can only earn gems when the timer is in 'focus' mode. The text at the top of the timer will display what mode you are in.</h4>
+            <h4>A: Green means you are in 'break' mode. You will not earn gems when the timer completes in this mode. Please take a break from working when the timer is green. You can only earn gems when the timer is in 'focus' mode. The text at the top of the timer will also display what mode you are in.</h4>
             <h3 style={{color:gamestate.color}}>Q: What happens if one of needs goes beyond zero?</h3>
-            <h4>A: Your pet will die. However, you can revive him but it will cost all of your gems.</h4>
-            <h3 style={{color:gamestate.color}}>Q: Why isn't my name changing when I change my skin?</h3>
-            <h4>A: Your name will only change when you change your skin if you don't have a custom name set. You cannot save custom names to individual skins. You can set a custom name under the settings menu.</h4>
-            <h3 style={{color:gamestate.color}}>Q: What is the difference between Start, Pause, Reset, and Skip?</h3>
-            <h4>A: Start will start a Pomodoro session. Pause will pause the current Pomodoro session. Reset will reset the current Pomodoro session back to the beginning. Skip will change your focus mode.</h4>
-            <h3 style={{color:gamestate.color}}>Q: What does autostart do?</h3>
-            <h4 >A: Autostart will automatically start the next Pomodoro session when the current one completes, if it is disabled you will have to start the next session manually.</h4>
+            <h4>A: Your pet will die. You can revive them for the cost of all your gems.</h4>
+            <h3 style={{color:gamestate.color}}>Why isn't my name changing when I change my skin?</h3>
+            <h4>A: Your name will only change if you don't have a custom name set. You cannot save custom names to individual skins. You can set a custom name under the settings menu.</h4>
+            <h3 style={{color:gamestate.color}}>Q: What is the difference between Start, Stop, Reset, and Skip?</h3>
+            <h4>A: Start will start a Pomodoro session. Stop will pause the current Pomodoro session. Reset will reset the current Pomodoro session back to the beginning. Skip will change your focus mode.</h4>
+            <h3 style={{color:gamestate.color}}>Q: What does "autostart" do?</h3>
+            <h4 >A: Autostart will start the next Pomodoro session automatically when the current one completes. If you disable it, you will need to start the next session manually.</h4>
+            <h3 style={{color:gamestate.color}}>Q: Help! The game broke. How do I fix it?</h3>
+            <h4 >A: Try clearing local storage and make sure JavaScript is enabled. You can also clear local storage if you want to reset the game.</h4>
             <p  style={{color:'rgba(255,255,255,0.5)', marginTop:'100px'}}><hr/>alarm clock buzzer alarm beep by Garuda1982 -- <a href="https://freesound.org/s/530172/">https://freesound.org/s/530172/</a> -- License: Creative Commons 0<br/><br/>
             bubbles (2).wav by Glaneur de sons -- <a href="https://freesound.org/s/104950/">https://freesound.org/s/104950/</a> -- License: Attribution 4.0<br/><br/>
             <a href="https://github.com/googlefonts/noto-emoji">Noto Emoji</a> Copyright 2013 Google, Inc.<br/><br/>
