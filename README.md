@@ -1,16 +1,17 @@
-# React + Vite
+# 🦀 Crabodoro: An ocean-themed Pomodoro timer game 🐙 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [Play now!](https://cabbit24.github.io/crabodoro/)
 
-Currently, two official plugins are available:
+Care for your virtual pet’s needs by completing Pomodoro focus sessions.
+<img width="1725" height="911" alt="crabpet" src="https://github.com/user-attachments/assets/6d89e956-77ed-400e-b86e-680b098eac8b" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Pet the crab. Cherish the crab. Forfeit all mortal possessions to the crab.
+<img width="800" height="815" alt="buy" src="https://github.com/user-attachments/assets/19493d5f-c41c-4c83-bfca-2816a95d6da4" />
 
-## React Compiler
+Unlock skins as your Pomodoro sessions progress!
+<img width="579" height="651" alt="crabcycle" src="https://github.com/user-attachments/assets/689ee6e6-dc3d-47d3-86ee-f3432a168b16" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Swap between focus and break mode manually or automatically.
+<img width="800" height="817" alt="loop" src="https://github.com/user-attachments/assets/55b1d8a8-c0e0-4a9c-9e13-10a7ffc9bd5b" />
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://cabbit24.github.io/crabodoro/
