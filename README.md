@@ -17,4 +17,4 @@
 # Links:
 https://cabbit24.github.io/crabodoro/
 
-_No generative AI was used_
+_No generative AI was used in the creation of this project._
